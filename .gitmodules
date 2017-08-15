@@ -7,3 +7,6 @@
 [submodule "micro-gameOfLife-webgui"]
 	path = micro-gameOfLife-webgui
 	url = https://github.com/olived19/micro-gameOfLife-webgui
+[submodule "micro-gameOfLife-messagequeue"]
+	path = micro-gameOfLife-messagequeue
+	url = https://github.com/olived19/micro-gameOfLife-messagequeue
