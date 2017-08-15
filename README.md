@@ -1,1 +1,1 @@
-micro-gameoflife-metaproject
+micro-gameoflife-metarepository
