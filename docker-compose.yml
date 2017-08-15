@@ -1,0 +1,26 @@
+version: '2.0'
+services:
+  webgui:
+    image: 'mgol-webgui:1.0'
+    ports:
+      - '80:80'
+    depends_on:
+      - webapi
+    links:
+      - "webapi:webapi"
+  webapi:
+      image: 'mgol-webapi:2.0'
+      depends_on:
+        - messagequeue
+      links:
+        - "messagequeue:messagequeue"
+  gridworker:
+    image: 'mgol-gridworker:1.0'
+    depends_on:
+      - messagequeue
+    links:
+      - "messagequeue:messagequeue"
+  messagequeue:
+    image: "rabbitmq:3.6.10-alpine"
+    ports:
+      - "5672"
