@@ -10,3 +10,6 @@
 [submodule "micro-gameOfLife-messagequeue"]
 	path = micro-gameOfLife-messagequeue
 	url = https://github.com/olived19/micro-gameOfLife-messagequeue
+[submodule "micro-gameOfLife-core"]
+	path = micro-gameOfLife-core
+	url = https://github.com/olived19/micro-gameOfLife-core
