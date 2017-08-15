@@ -4,3 +4,6 @@
 [submodule "micro-gameOfLife-gridworker"]
 	path = micro-gameOfLife-gridworker
 	url = https://github.com/olived19/micro-gameOfLife-gridworker
+[submodule "micro-gameOfLife-webgui"]
+	path = micro-gameOfLife-webgui
+	url = https://github.com/olived19/micro-gameOfLife-webgui
