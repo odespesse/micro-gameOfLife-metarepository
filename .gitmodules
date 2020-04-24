@@ -1,15 +1,15 @@
 [submodule "micro-gameOfLife-webapi"]
 	path = micro-gameOfLife-webapi
-	url = https://github.com/olived19/micro-gameOfLife-webapi.git
+	url = https://github.com/odespesse/micro-gameOfLife-webapi.git
 [submodule "micro-gameOfLife-gridworker"]
 	path = micro-gameOfLife-gridworker
-	url = https://github.com/olived19/micro-gameOfLife-gridworker
+	url = https://github.com/odespesse/micro-gameOfLife-gridworker
 [submodule "micro-gameOfLife-webgui"]
 	path = micro-gameOfLife-webgui
-	url = https://github.com/olived19/micro-gameOfLife-webgui
+	url = https://github.com/odespesse/micro-gameOfLife-webgui
 [submodule "micro-gameOfLife-messagequeue"]
 	path = micro-gameOfLife-messagequeue
-	url = https://github.com/olived19/micro-gameOfLife-messagequeue
+	url = https://github.com/odespesse/micro-gameOfLife-messagequeue
 [submodule "micro-gameOfLife-core"]
 	path = micro-gameOfLife-core
-	url = https://github.com/olived19/micro-gameOfLife-core
+	url = https://github.com/odespesse/micro-gameOfLife-core

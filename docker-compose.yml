@@ -1,7 +1,7 @@
 version: '2.0'
 services:
   webgui:
-    image: 'mgol-webgui:1.0'
+    image: 'mgol-webgui:1.0.1'
     ports:
       - '80:80'
     depends_on:
@@ -9,13 +9,13 @@ services:
     links:
       - "webapi:webapi"
   webapi:
-      image: 'mgol-webapi:2.0'
+      image: 'mgol-webapi:2.0.1'
       depends_on:
         - messagequeue
       links:
         - "messagequeue:messagequeue"
   gridworker:
-    image: 'mgol-gridworker:1.0'
+    image: 'mgol-gridworker:1.0.1'
     depends_on:
       - messagequeue
     links:
